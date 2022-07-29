@@ -41,9 +41,16 @@
 
 ##### [Run App](https://ionicframework.com/docs/intro/cli#run-the-app) :
 
-```bash
-ionic serve
-```
+- After you have created your first app, `cd` into the created project-folder and to serve your project use :
+
+  ```bash
+  ionic serve
+  ```
+
+- For Build (will be available in `www` folder):
+  ```bash
+  ionic build
+  ```
 
 ##### [Ionic + Angular](https://ionicframework.com/docs/intro/cdn#ionic--angular)
 

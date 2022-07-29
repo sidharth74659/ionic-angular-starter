@@ -1,7 +1,0 @@
-{
-  "name": "first-tutorial",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}

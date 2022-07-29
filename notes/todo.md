@@ -1,0 +1,5 @@
+- [ ] master building reusable-components
+- [ ] Maintaining Folder Structure
+- [ ] Best practices and tools
+- [ ] Blogs and communities for learning
+- [ ] sites for snippets for components
