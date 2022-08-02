@@ -1,0 +1,1 @@
+- `ionic info` : To get the version of Ionic, it's Utilities and other information.

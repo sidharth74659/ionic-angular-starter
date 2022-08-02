@@ -1,0 +1,2 @@
+- [ ] [Getting started with Ionic 4](https://ionicacademy.com/getting-started-with-ionic-4/?utm_source=convertkit&utm_medium=email&utm_campaign=%5BIONIC-COURSE%5D+Day+1%3A+Getting+Started%20-%201568935) - (uses *`Cordova`*)
+- [ ] []()

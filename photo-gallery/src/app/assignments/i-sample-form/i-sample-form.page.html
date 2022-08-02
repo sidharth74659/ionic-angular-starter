@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>My Courses</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding [formGroup]="form">
+  <ion-item>
+    <ion-label position="floating">Course Name</ion-label>
+    <ion-input type="text" formControlName="name"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating">Course Rating(1-5)</ion-label>
+    <ion-input
+      type="number"
+      min="1"
+      max="5"
+      formControlName="rating"
+    ></ion-input>
+  </ion-item>
+
+  <ion-button class="ion-margin" (click)="submitForm()"> ADD </ion-button>
+</ion-content>

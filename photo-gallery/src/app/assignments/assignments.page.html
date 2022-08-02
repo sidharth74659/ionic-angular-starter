@@ -1,0 +1,17 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Assignments</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-item *ngFor="let assignment of assignments">
+  <ion-label>{{assignment.title}}</ion-label>
+  <ion-button
+    fill="clear"
+    slot="start"
+    routerLink="/assignments/{{assignment.id}}"
+    >red
+    <ion-icon name="open"></ion-icon>
+  </ion-button>
+</ion-item>
+
+<ion-router-outlet></ion-router-outlet>

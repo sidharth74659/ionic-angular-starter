@@ -13,6 +13,8 @@
   npm install -g @ionic/cli
   ```
 
+  For more ionic cli commands, visit [here](./cli.md)
+
 ##### [Start App](https://ionicframework.com/docs/developing/starting) :
 
 - Create an Ionic app using one of the pre-made app templates, or a blank one to start fresh

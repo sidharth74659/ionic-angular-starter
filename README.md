@@ -2,8 +2,11 @@
 
 - [ ] [VS Code Extensions](./notes/extensions.md)
 
+- [ ] [Basic Commands](./notes/basic-commands.md)
+
 - [ ] Follow [Tutorial](./notes/tutorial.md)
 
+- [ ] [For Fast Learning](./notes/fast-learning.md)
 - [ ] [CDN's](./notes/cdn.md)
 
 - [ ] [Visual Guide](https://dashboard.ionicframework.com/app/fab1a8f5/getting-started) with starter-template
