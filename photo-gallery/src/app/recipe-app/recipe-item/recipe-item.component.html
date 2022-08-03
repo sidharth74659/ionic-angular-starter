@@ -1,0 +1,18 @@
+<ion-item>
+  <ion-avatar slot="start">
+    <img src="https://picsum.photos/200/200" />
+  </ion-avatar>
+
+  <ion-label>{{ recipe?.title }}</ion-label>
+
+  <ion-icon
+    name="trash"
+    slot="end"
+    (click)="deleteRecipe(recipe?.id)"
+  ></ion-icon>
+  <ion-icon
+    name="eye"
+    slot="end"
+    [routerLink]="['./', recipe?.id]"
+  ></ion-icon>
+</ion-item>

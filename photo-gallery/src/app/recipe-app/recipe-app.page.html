@@ -1,0 +1,18 @@
+<!-- @root element -->
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>My Recipes</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<!-- @root element -->
+<ion-content>
+  <ion-list>
+    <recipe-item
+      *ngFor="let recipe of recipes"
+      [recipe]="recipe"
+      (delete)="confirmDelete(recipe.title, recipe.id)"
+    >
+    </recipe-item>
+  </ion-list>
+</ion-content>
